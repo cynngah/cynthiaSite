@@ -9,6 +9,7 @@
 html, body {
   height: 100%;
   margin: 0;
+  background-color: black;
 }
 
 body {
@@ -21,8 +22,7 @@ body {
 .container {
   margin: 0 auto;
   right: 40%;
-  font-family: "Lucida Console", Monaco, monospace;
-  margin-right: 100px;
+  bottom: 10%;
 }
 
 /* Main */
@@ -31,8 +31,10 @@ body {
   position: relative;
   top: 40%;
   left: 10%;
+  bottom: 10%;
   margin-right: 30%;
   text-align: justify;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 .main h1 {
@@ -43,7 +45,6 @@ body {
 
 .main .intro {
     font-size: 20px;
-    font-family: "Lucida Console", Monaco, monospace;
 }
 
 .main p {
